@@ -89,7 +89,7 @@ C:\Users\Administrator\Desktop\root.txt NT AUTHORITY\SYSTEM:R  
                                        BUILTIN\Administrators:R
  ```
  
- Ejecutando `cipher` podemos ver que esta encriptada. Solo la puede descencriptar `administrator` :neutral_face:
+ Ejecutando `cipher` podemos ver que esta encriptada. Solo la puede descencriptar `administrator`
  ```bash
  cipher /c root.txt  
   
@@ -113,7 +113,7 @@ The specified file could not be decrypted.
  
 Necesitamos las contraseñas de los usuarios para poder ver las flags esto pasa que están  encriptadas en [EFS](https://www.redeszone.net/tutoriales/seguridad/encrypting-file-system-efs-cifrado-archivos-windows-10/)
 
-No voy a usar mimikatz en este writeup ,creo un usuario admin y luego dumpeo las credenciales con [secretsdump](https://airman604.medium.com/dumping-active-directory-password-hashes-deb9468d1633) :pizza:
+No voy a usar mimikatz en este writeup ,creo un usuario admin y luego dumpeo las credenciales con [secretsdump](https://airman604.medium.com/dumping-active-directory-password-hashes-deb9468d1633) 
  
    ```bash
  net user mario mario123 /add
@@ -251,5 +251,5 @@ Ahora tenemos la contraseña del administrador con la cual podemos ver la flag `
 ## User Flag
 * Ahora necesitamos  la contraseña de `tolu` para poder ver la flag . viendo en el `event viewer` encuentro un inicio de sesion 
 <img src="/assets/htb/helpline/Pasted image 20211106023521.png">
-* Aqui facil, ejecutamos cmd como un usuario diferente y ponemos las credenciales de `tolu` :collision:
+* Aqui facil, ejecutamos cmd como un usuario diferente y ponemos las credenciales de `tolu`
 <img src="/assets/htb/helpline/Pasted image 20211106024252.png">
