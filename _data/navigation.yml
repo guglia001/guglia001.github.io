@@ -1,0 +1,10 @@
+
+main:
+  - title: "Home"
+    url: /
+  - title: "Htb"
+    url: /year-archive/
+  - title: "Tryhackme"
+    url: /categories/
+  - title: "Posts"
+    url: /categories/
