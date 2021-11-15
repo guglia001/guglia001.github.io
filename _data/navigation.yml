@@ -3,8 +3,8 @@ main:
   - title: "Home"
     url: /
   - title: "Htb"
-    url: /year-archive/
+    url: /
   - title: "Tryhackme"
-    url: /categories/
+    url: /
   - title: "Posts"
-    url: /categories/
+    url: /
