@@ -53,6 +53,7 @@ dns
 ```
 host -t axfr <DOMAIN> <IP>
 dnsrecon -d <domain> -t axfr
+dig <DOMAIN> @ip axfr
 ```
 smb vuln check
 ```
