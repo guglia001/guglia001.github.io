@@ -2,9 +2,6 @@
 main:
   - title: "Home"
     url: /
-  - title: "Htb"
-    url: /
-  - title: "Tryhackme"
-    url: /
-  - title: "Posts"
-    url: /
+  - title: "Categorias"
+    url: /categories/
+

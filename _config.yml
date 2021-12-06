@@ -1,5 +1,6 @@
 # Welcome to Jekyll!
 #
+#  bundle exec jekyll serve
 # Th[i]s config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -190,6 +191,7 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
   - jemoji
+  - jekyll-feed
 
 # mimic GitHub Pages with --safe
 whitelist:
