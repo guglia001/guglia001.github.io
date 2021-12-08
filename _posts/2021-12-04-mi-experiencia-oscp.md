@@ -7,7 +7,7 @@ categories: [posts, certs]
 ## OSCP journey
 
 
-Esta ha sido la certificación más difícil que he hecho nunca, una cosa que recomiendo es no hacer el examen por la noche, yo lo hice por la noche porque pensé que era buena idea, ya que me podía concentrar mejor y fue lo peor que pude hacer. Otra cosa que recomiendo es gestionar bien el tiempo empezar con la más fácil que es el buffer overflow, aunque yo tuve muchos problemas con eso no se porque se me hacia imposible que me devuelva la reverse shell, siempre se me moría aunque cambiase el payload luego de estar varias horas stuck se me ocurrió que el msfvenom me ejecute [Invoke-Powershell](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1) y asi pude obtener mi revershell estable .<br>
+Os voy a contar como he superado con exito la certificacion Offensive Security Certified Professional (OSCP). Primero voy a contar las cosas que me pasaron y que consejos pueden servir lo primero que recomiendo; NO hacer el examen por la noche, yo lo hice por la noche porque pensé que era buena idea, ya que me podía concentrar mejor y fue lo peor que pude hacer. Otra cosa que recomiendo es gestionar bien el tiempo empezar con la más fácil que es el buffer overflow, aunque yo tuve muchos problemas con eso no se porque se me hacia imposible que me devuelva la reverse shell, siempre se me moría aunque cambiase el payload luego de estar varias horas stuck se me ocurrió que el msfvenom me ejecute [Invoke-Powershell](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1) y asi pude obtener mi revershell estable .<br>
 El tema del **Protoctored** te pone muy nervioso. El ver la cámara encendida todo el día viéndote y que al mismo tiempo vean tu pantalla te hace dudar mucho de las cosas que haces <br>
 En mi examen la única máquina que me toco que tenía algún exploit público fue en la de **10 puntos** las demás eran aplicaciones web públicas, ya que las buscabas y encontrabas el código fuente, pero no existían exploits conocidos, tenías que literalmente encontrar un **0 day** luego en la máquina de **25 puntos** la única forma para hacer root no estaba documentado en ningún sitio así que tienes que tener pensamiento lateral para lograrlo exitosamente  <br> 
 Otra cosa que recomiendo mucho es no tirar la toalla, ya que cuando solo me faltaba una hora para terminar el examen y solo tenía 60 puntos se me ocurrió intentar de nuevo un attack vector y esta vez si funciono 
@@ -53,6 +53,7 @@ dns
 ```
 host -t axfr <DOMAIN> <IP>
 dnsrecon -d <domain> -t axfr
+dig <DOMAIN> @ip axfr
 ```
 smb vuln check
 ```
