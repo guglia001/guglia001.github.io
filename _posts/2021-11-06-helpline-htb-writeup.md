@@ -11,7 +11,7 @@ categories: [ctf, htb]
 
 |                   |                 |
 |-------------------|-----------------|
-| Helpline         | [HTB Helpline](https://app.hackthebox.com/machines/Helpline "Holo Live") |
+| Helpline         | [HTB Helpline](https://app.hackthebox.com/machines/Helpline) |
 | Guglia001          | [Guglia001](https://app.hackthebox.com/profile/112776)     |
 |        IP        | 10.10.10.132
 | 					Dificultad					|<span style="color:red">Hard</span>
