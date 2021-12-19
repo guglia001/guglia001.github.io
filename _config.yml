@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mario Guglia"
+  name             : "Mario Guglia "
   avatar           : assets/2.jpg
-  bio              : "**ctf** writeups y articulos  <br> **OSCP**"
+  bio              : "**ctf** writeups y articulos"
   location         : "Madrid, Spain"
   email            : guglia2284@gmail.com
   github           : guglia001
