@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Pentesting active directory"
-categories: [ctf, sqli, htb]
+categories: [articulos, AD, htb]
 ---
 
 
