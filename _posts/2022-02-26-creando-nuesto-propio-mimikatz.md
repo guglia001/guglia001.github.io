@@ -4,7 +4,7 @@ title:  "Creando nuestro propio binario de mimikatz (indetectable)"
 categories: [articulos, AD, malware, bypass]
 ---
 
-### En este post vamos a cubrir primero un método manual en el que vamos a modificar el código fuente de mimikatz para cambiar y ofuscar las palabras que usa normalmente el binario y luego con el uso de una herramienta vamos a volver al mimikatz indebuggueable  
+### En este post vamos a cubrir primero un método manual en el que vamos a modificar el código fuente de mimikatz para cambiar y ofuscar las palabras que usa normalmente el binario y luego con el uso de una herramienta terminar de encodearlo y ejecutarlo desde la memoria  
 
 Para hacer esto voy a utilizar la versión de [version de desarrollador de windows ](https://developer.microsoft.com/es-es/windows/downloads/virtual-machines/) con [CommandoVM](https://github.com/mandiant/commando-vm)
 
