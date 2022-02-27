@@ -5,10 +5,9 @@ categories: [articulos, AD, htb]
 ---
 
 
-En este post vamos a ver la mayoria de ataques en el directorio activo y escalacion de privilegios de windows <br>
+En este post vamos un cheatsheet con los ataques y comandos del active directory y priv esc en windows <br>
 
-
-
+Vamos a empezar con los comandos y el mapa mental lo podeis encontrar [al fondo del articulo](#mapa-mental) <br>
 
 - [Scan Network](#scan-network)
 - [Find ad ip](#find-ad-ip)
@@ -506,4 +505,11 @@ exploit/multi/http/tomcat_mgr_deploy
 
 
 ### Mapa mental
- Mapa mental: ![mapa mental](/assets/articulos/active-directory/mapa.png  ) 
+
+
+<figure style="width: 1000px" class="align-center">
+  <a href="/assets/articulos/active-directory/mapa.png" title="Mapa mental ataques" alt="The Pixel Tracker logo">
+  <img src="/assets/articulos/active-directory/mapa.png" alt=""></a>
+  <figcaption>Mapa mental ataques</figcaption>
+</figure>
+

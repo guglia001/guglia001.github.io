@@ -27,6 +27,11 @@ Cuando ya tenía toda la red pública terminada decidí no seguir en los laborat
 
 <img src="/assets/cert/digital.png"> 
 
+<img src="/assets/cert/diploma.jpg"> 
+
+
+[Credly](https://www.credly.com/badges/82e259fa-9c93-4f37-bc42-c8442e704a53/public_url)
+
 
 
 ## Apuntes relevantes 
@@ -263,5 +268,3 @@ netsh advfirewall set allprofiles state off
 net localgroup "Remote Desktop Users" Everyone /Add 
 ```
 
-
-[Credly](https://www.credly.com/badges/82e259fa-9c93-4f37-bc42-c8442e704a53/public_url)
