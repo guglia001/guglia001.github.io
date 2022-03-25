@@ -27,7 +27,7 @@ Cuando ya tenía toda la red pública terminada decidí no seguir en los laborat
 
 <img src="/assets/cert/digital.png"> 
 
-<img src="/assets/cert/diploma.jpg"> 
+<img src="/assets/cert/diploma.JPG"> 
 
 
 [Credly](https://www.credly.com/badges/82e259fa-9c93-4f37-bc42-c8442e704a53/public_url)
